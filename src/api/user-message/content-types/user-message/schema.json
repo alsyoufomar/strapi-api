@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_messages",
+  "info": {
+    "singularName": "user-message",
+    "pluralName": "user-messages",
+    "displayName": "User_message"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "maxLength": 25
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "maxLength": 50
+    },
+    "message": {
+      "type": "text",
+      "required": true,
+      "maxLength": 900
+    }
+  }
+}

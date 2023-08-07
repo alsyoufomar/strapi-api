@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "research_title": {
+      "type": "string",
+      "required": true
+    },
+    "research_subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "home_cta_title": {
+      "type": "string",
+      "required": true
+    },
+    "home_cta_subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "testimonial_title": {
+      "type": "string",
+      "required": true
+    },
+    "blogs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::blog.blog"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_statics",
+  "info": {
+    "singularName": "blog-static",
+    "pluralName": "blog-statics",
+    "displayName": "blog_static"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blog_title": {
+      "type": "string",
+      "required": true
+    },
+    "blog_subtitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
