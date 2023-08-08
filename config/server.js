@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url: env("PUBLIC_URL", "http://localhost:3030"),
+  url: env("PUBLIC_URL", "https://ali-website-server.onrender.com"),
   host: env("HOST", "0.0.0.0"),
   port: env.int("PORT", 3030),
   app: {
