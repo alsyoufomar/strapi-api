@@ -4,7 +4,8 @@
   "info": {
     "singularName": "footer",
     "pluralName": "footers",
-    "displayName": "footer"
+    "displayName": "footer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -31,7 +32,7 @@
       "type": "string",
       "required": true
     },
-    "instagram_link": {
+    "linkedin_link": {
       "type": "string",
       "required": true
     },
